@@ -18,6 +18,12 @@ html {
 }
 .add-photo-container:hover {
     cursor: pointer;
+    background-color: black;
+}
+.add-photo-container:hover > span {
+    font-size: 5rem;
+    color: white;
+    transition: 0.5s;
 }
 .img-input {
     display: none;
