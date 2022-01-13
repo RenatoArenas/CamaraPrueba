@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.add-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    font-size: 4rem;
+    border: 1px solid black;
+}
+.add-photo-container:hover {
+    cursor: pointer;
+}
+.img-input {
+    display: none;
+}
