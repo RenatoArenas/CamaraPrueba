@@ -7,6 +7,8 @@
     <title>CamaraPrueba</title>
 </head>
 <body>
-    <input type="file" accept="image/*" capture="camera">
+    <input type="file" accept="image/*" capture="camera" id="imgInput" onchange="return validarExt()">
+    <div id="visorImg"></div>
+    <script src="./js/camera.js"></script>
 </body>
 </html>
